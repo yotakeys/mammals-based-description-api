@@ -3,3 +3,4 @@ tqdm
 sentence-transformers
 numpy
 faiss-cpu
+gradio
