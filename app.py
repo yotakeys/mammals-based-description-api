@@ -53,7 +53,7 @@ Mammals = MammalsSearcher()
 app = gr.Interface(fn=giveRecommend,
                    inputs=["textbox", "number"],
                    outputs="textbox",
-                   organism_name="Mammals Searcher",
+                   title="Mammals Searcher",
                    description="Search for mammals by description."
                    )
 app.launch()
